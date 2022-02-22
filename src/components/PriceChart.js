@@ -29,7 +29,7 @@ const showPriceChart = priceChart => {
 class PriceChart extends Component {
 	render() {
 		return (
-			<div className="card bg-dark text-white">
+			<div className="card bg-transparent text-white">
 				<div className="card-header">
 					Price Chart
 				</div>

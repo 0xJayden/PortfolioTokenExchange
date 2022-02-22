@@ -2,6 +2,9 @@ export const chartOptions = {
   chart: {
     animations: { enabled: false },
     toolbar: { show: false },
+    zoom: {
+      enabled: true
+    },
     width: '100px'
   },
   tooltip: {
@@ -45,6 +48,9 @@ export const chartOptions = {
     },
   },
   yaxis: {
+    max: 0.004,
+    min: 0.00003,
+    decimalsInFloat: 5,
     labels: {
       show: true,
       minWidth: 0,

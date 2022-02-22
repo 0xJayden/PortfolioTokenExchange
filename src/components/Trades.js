@@ -23,12 +23,12 @@ class Trades extends Component {
   render() {
     return (
       <div className="vertical">
-        <div className="card bg-dark text-white">
+        <div className="card bg-transparent text-white">
           <div className="card-header">
             Trades
           </div>
           <div className="card-body">
-            <table className="table table-dark table-sm small">
+            <table className="table table-transparent text-white table-sm small">
               <thead>
                 <tr>
                   <th>Time</th>

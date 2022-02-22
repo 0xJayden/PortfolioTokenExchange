@@ -48,10 +48,10 @@ const showForm = (props) => {
   } = props
 
   return(
-    <Tabs defaultActiveKey="deposit" className="bg-dark text-white">
+    <Tabs defaultActiveKey="deposit" className="bg-transparent text-white">
 
-      <Tab eventKey="deposit" title="Deposit" className="bg-dark">
-        <table className="table table-dark table-sm small">
+      <Tab eventKey="deposit" title="Deposit" className="bg-transparent">
+        <table className="table table-transparent table-sm small text-white">
           <thead>
             <tr>
               <th>Token</th>
@@ -77,15 +77,15 @@ const showForm = (props) => {
             type="text"
             placeholder="ETH Amount"
             onChange={(e) => dispatch( etherDepositAmountChanged(e.target.value) ) }
-            className="form-control form-control-sm bg-dark text-white"
+            className="form-control form-control-sm bg-transparent text-white"
             required />
           </div>
           <div className="col-12 col-sm-auto pl-sm-0">
-            <button type="submit" className="btn btn-primary btn-block btn-sm">Deposit</button>
+            <button type="submit" className="btn text-white btn-block btn-sm">Deposit</button>
           </div>
         </form>
 
-        <table className="table table-dark table-sm small">
+        <table className="table table-transparent text-white table-sm small">
           <tbody>
             <tr>
               <td>PRT</td>
@@ -104,19 +104,19 @@ const showForm = (props) => {
             type="text"
             placeholder="PRT Amount"
             onChange={(e) => dispatch( tokenDepositAmountChanged(e.target.value) )}
-            className="form-control form-control-sm bg-dark text-white"
+            className="form-control form-control-sm bg-transparent text-white"
             required />
           </div>
           <div className="col-12 col-sm-auto pl-sm-0">
-            <button type="submit" className="btn btn-primary btn-block btn-sm">Deposit</button>
+            <button type="submit" className="btn text-white btn-block btn-sm">Deposit</button>
           </div>
         </form>
 
       </Tab>
 
-      <Tab eventKey="withdraw" title="Withdraw" className="bg-dark">
+      <Tab eventKey="withdraw" title="Withdraw" className="bg-transparent">
 
-        <table className="table table-dark table-sm small">
+        <table className="table table-transparent text-white table-sm small">
           <thead>
             <tr>
               <th>Token</th>
@@ -142,15 +142,15 @@ const showForm = (props) => {
             type="text"
             placeholder="ETH Amount"
             onChange={(e) => dispatch( etherWithdrawAmountChanged(e.target.value) )}
-            className="form-control form-control-sm bg-dark text-white"
+            className="form-control form-control-sm bg-transparent text-white"
             required />
           </div>
           <div className="col-12 col-sm-auto pl-sm-0">
-            <button type="submit" className="btn btn-primary btn-block btn-sm">Withdraw</button>
+            <button type="submit" className="btn text-white btn-block btn-sm">Withdraw</button>
           </div>
         </form>
 
-        <table className="table table-dark table-sm small">
+        <table className="table table-transparent text-white table-sm small">
           <tbody>
             <tr>
               <td>PRT</td>
@@ -169,11 +169,11 @@ const showForm = (props) => {
             type="text"
             placeholder="PRT Amount"
             onChange={(e) => dispatch( tokenWithdrawAmountChanged(e.target.value) )}
-            className="form-control form-control-sm bg-dark text-white"
+            className="form-control form-control-sm bg-transparent text-white"
             required />
           </div>
           <div className="col-12 col-sm-auto pl-sm-0">
-            <button type="submit" className="btn btn-primary btn-block btn-sm">Withdraw</button>
+            <button type="submit" className="btn text-white btn-block btn-sm">Withdraw</button>
           </div>
         </form>
 
@@ -194,7 +194,7 @@ class Balance extends Component {
 
   render() {
     return (
-      <div className="card bg-dark text-white">
+      <div className="card bg-transparent text-white">
         <div className="card-header">
           Balance
         </div>
