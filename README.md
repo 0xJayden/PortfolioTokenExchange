@@ -20,7 +20,7 @@ https://portfolio-token-exchange.surge.sh
 
 In the My Transactions section, you can view past trades and orders you've created. You may also cancel your created orders in the Order tab.  
 
-<i>=========================================================================================</i>  
+<i>==================================================================================</i>  
 
 <strong>For Devs</strong>
 
